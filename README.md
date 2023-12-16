@@ -13,7 +13,7 @@ Covid-19 Dashboard with React.js and Graphs for visualization.
 
 ## Overview
 
-The COVID-19 Dashboard serves as a practical tool for visualizing various statistics related to the COVID-19 pandemic that originated from China. It has been developed with a focus on integrating external REST APIs, presenting data through graphical representations, and ensuring a responsive user interface.
+The COVID-19 Dashboard serves as a practical tool for visualizing various statistics related to the COVID-19 pandemic that originated in China. It has been developed with a focus on integrating external REST APIs, presenting data through graphical representations, and ensuring a responsive user interface.
 
 ## Technology Stack
 
