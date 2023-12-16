@@ -1,6 +1,6 @@
 # CPSC-349 Project 2 Covid 19 Dashboard
 
-Covid-19 Tracker Dashboard with React.js and Graphs for visualization.
+Covid-19 Dashboard with React.js and Graphs for visualization.
 
 **Aim** to acquire a knowledge of consuming an external Representational State Transfer (REST) API and presentation of data with graphs in React.js, the configuration of CI/CD with CircleCI and Netlify. The author has also planned to gain an understanding of ESLint (AirBnB Style Guide), snapshot testing in React.js, animations, and responsiveness.
 
@@ -35,7 +35,7 @@ The primary goals of this project include:
 
 Learning REST API Consumption: Gaining proficiency in using external REST APIs to fetch and process data.
 Data Visualization: Utilizing graphs for an effective presentation of COVID-19 data, making it easier to understand and analyze.
-CI/CD Configuration: Implementing Continuous Integration and Continuous Deployment using CircleCI and Netlify to automate the development process.
+CI/CD Configuration: Implementing Continuous Integration and Continuous Deployment using CircleCI.
 Coding Standards and Testing: Adhering to the AirBnB Style Guide with ESLint for code quality and conducting snapshot testing in React.js to ensure functionality.
 UI/UX Design: Crafting a responsive and interactive user interface with animations for an engaging user experience.
 
