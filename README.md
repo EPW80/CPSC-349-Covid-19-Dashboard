@@ -69,6 +69,10 @@ npm start
 
 This will start the application on your local server, typically accessible at <http://localhost:3000>.
 
+## Project Deployment
+
+[Netlify](https://dazzling-brigadeiros-4e5e86.netlify.app/)
+
 ## Demo
 
 ![Demo](./src/assets/images/dashboard.gif)
