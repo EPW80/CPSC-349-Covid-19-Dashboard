@@ -1,0 +1,36 @@
+import React from "react";
+import renderer from "react-test-renderer";
+import { number } from "prop-types";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp, faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import Theme from "../theme/Theme";
+
+export function renderWithTheme(component) {
+  return renderer.create(<Theme>{component}</Theme>);
+}
+
+export function calIncreasePercentage(latest, increaseValue) {
+  const previous = latest - increaseValue;
+  const percent = ((latest - previous) / previous) * 100;
+  return percent;
+}
+
+export function getIcon(percent) {
+  return percent > 0 ? (
+    <FontAwesomeIcon icon={faArrowUp} />
+  ) : (
+    <FontAwesomeIcon icon={faArrowDown} />
+  );
+}
+
+export function calculateRate(condition, cases) {
+  const rate = (condition / cases) * 100;
+  return rate;
+}
+
+export function numberWithCommas(num) {
+  return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+numberWithCommas.propTypes = {
+  num: number,
+};
