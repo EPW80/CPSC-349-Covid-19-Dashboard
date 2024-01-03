@@ -1,4 +1,4 @@
-# CPSC-349 Project 2 Covid 19 Dashboard
+# CPSC-349 Covid 19 Dashboard
 
 Covid-19 Dashboard with React.js and Graphs for visualization.
 
